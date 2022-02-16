@@ -1,0 +1,109 @@
+body {
+  margin: auto 20%;
+
+}
+
+.header {
+  display: flex;
+  border: 2px solid red;
+  padding-left: 10%;
+
+}
+
+.nav ul {
+  display: flex;
+  border: red 2px dotted;
+  flex-wrap: wrap;
+  margin-left: 345px;
+  width: 330px;
+  justify-content: space-between;
+
+}
+
+.nav ul li {
+  display: flex;
+  border: red 2px solid;
+
+}
+
+.left {
+  display: flex;
+  padding-left: 10%;
+  border: blue solid 2px;
+  flex-direction: column;
+  width: 40%;
+  padding-top: 5%;
+}
+
+.left p {
+  text-align: left;
+  border: blue 2px dotted;
+  width: 90%;
+  margin-top: -20px
+
+}
+
+.right {
+  background-color: grey;
+  justify-content: flex-end;
+  border: red dotted 2px;
+  text-align: center;
+  padding: 5%;
+  height: 50px;
+  width: 300px;
+  margin-top: 7%;
+}
+
+.container {
+  display: flex;
+  border: 2px solid red;
+  height: 320px;
+
+}
+
+.container2 {
+  border: 2px solid red;
+  height: 370px;
+
+
+}
+
+.container2 h1{
+  display: flex;
+  border: 2px dotted red;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+
+.container2 ul{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  padding-left: 15%;
+}
+
+.container2 a{
+  display: flex;
+  justify-content: space-between;
+  border: dotted red 2px;
+}
+
+.quote {
+  display: flex;
+  border: 2px solid red;
+  justify-content: center;
+  padding: 10% 350px 10% 350px;
+}
+
+.cta {
+  display: flex;
+  border: 2px solid red;
+  justify-content: center;
+  padding: 6% 180px 6% 180px;
+}
+
+.footer {
+  display: flex;
+  border: 2px solid red;
+  justify-content: center;
+}
